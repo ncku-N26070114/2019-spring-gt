@@ -1,5 +1,7 @@
 # 1072_圖形理論 GRAPH THEORY Project 
+
 ## Chinese Postman Problem (無向圖)
+
 (一)演算法思路/解題邏輯
 
   核心問題為找出Euler Circuit，即可得出最短路徑結果。
@@ -30,8 +32,11 @@
 7.vector<VERTEX *> Hierholzer(); 利用"Hierholzers Algorithm"解無向圖的Euler Circuit。
 
   詳細的解法為:
+  
   (1)從任一點出發，開始走回至原點的Circuit( 未包含全部Edge )，並放入Stack
+  
   (2)由Stack開始往回探索所有vertex，並找尋是否還有別的路徑能走，並放入Stack
+  
   (3)持續尋找直到Stack中所有Vertex都找不到其他路徑( 已含全部Edge )
 
 8.得出結果print出solution.txt
