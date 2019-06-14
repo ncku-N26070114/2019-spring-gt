@@ -23,13 +23,13 @@
 
 ### 5. vector<string> GetShortPath(); 計算可找出任兩點"最短"路徑。
 
-### 6 void CalculateShortestPath(); 將所有奇數degree的vertex以""窮舉法""找出所有maching。
+### 6 void CalculateShortestPath(); 將所有奇數degree的vertex以 "窮舉法" 找出所有maching。
 
 ### 7. int matching(); 從所有maching中挑選出"路徑最短的matching"。
 
 ### 8. void AddEdge(); 將matching的Edge結果加入graph。
 
-### 9. vector<VERTEX *> Hierholzer(); 利用"Hierholzers Algorithm"解無向圖的Euler Circuit。
+### 9. vector<VERTEX *> Hierholzer(); 利用 "Hierholzers Algorithm" 解無向圖的Euler Circuit。
 
 ### 詳細的解法為:
   
