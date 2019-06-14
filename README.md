@@ -33,11 +33,11 @@
 
 ### 詳細的解法為:
   
-### (1) 從任一點出發，開始走回至原點的Circuit( 未包含全部Edge )，並放入Stack。
+### (1) 從任一點出發，開始走回至原點的Circuit (未包含全部Edge) ，並放入Stack。
   
 ### (2) 由Stack開始往回探索所有vertex，並找尋是否還有別的路徑能走，並放入Stack。
   
-### (3) 持續尋找直到Stack中所有Vertex都找不到其他路徑( 已含全部Edge )。
+### (3) 持續尋找直到Stack中所有Vertex都找不到其他路徑 (已含全部Edge)。
 
 ### 10.得出結果print出solution.txt。
 
